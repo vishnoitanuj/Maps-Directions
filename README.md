@@ -8,9 +8,10 @@ The user can use controller to get the coordinates using the following endpoint
 FYI: The following is a GET request
 
 `{BASE_URI}/directions?origin={startLat, startLong}&dest={endLat, endLog}`
+Heroku: directions?origin={startLat, startLong}&dest={endLat, endLog}
 
 Eg: `localhost:8080/directions?origin=12.93175, 77.62872&dest=12.92662, 77.63696`
-
+Heroku Eg: https://maps-directions.herokuapp.com/directions?origin=12.93175,%2077.62872&dest=12.92662,%2077.63696
 (Include request-id in header for traceability)
 
  -------
