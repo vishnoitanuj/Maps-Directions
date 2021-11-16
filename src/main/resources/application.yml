@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: locus-assignment
+locus:
+  google:
+    maps:
+      api-key: AIzaSyAEQvKUVouPDENLkQlCF6AAap1Ze-6zMos
+
+logging:
+  level:
+    ROOT: INFO
+
